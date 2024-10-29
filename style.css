@@ -123,10 +123,7 @@ h1 {
         opacity: 0;
     }
 }
-#videoContainer video {
-    width: 50%;               /* Faz o vídeo ocupar 100% da largura do contêiner */
-    height: auto;              /* Mantém a proporção do vídeo */
-}
+
 
 .side-gifs {
     display: flex;             /* Usa flexbox para organizar os itens */
