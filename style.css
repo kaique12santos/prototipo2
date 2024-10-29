@@ -123,6 +123,10 @@ h1 {
         opacity: 0;
     }
 }
+#videoContainer video {
+    width: 100%;               /* Faz o vídeo ocupar 100% da largura do contêiner */
+    height: auto;              /* Mantém a proporção do vídeo */
+}
 
 .side-gifs {
     display: flex;             /* Usa flexbox para organizar os itens */
@@ -158,5 +162,22 @@ h1 {
 .birthday-gif {
     max-width: 100%; /* Faz o GIF se ajustar à largura do contêiner */
     height: auto; /* Mantém a proporção do GIF */
+}
+@media (max-width: 600px) {
+    .gif img {
+        width: 100px;           /* Largura menor para GIFs em smartphones */
+    }
+
+    h1 {
+        font-size: 24px;        /* Ajusta o tamanho do texto do título */
+    }
+
+    .message, button {
+        font-size: 18px;        /* Ajusta o tamanho do texto para outros elementos */
+    }
+    
+    .container {
+        padding: 10px;          /* Reduz o padding em telas pequenas */
+    }
 }
 
