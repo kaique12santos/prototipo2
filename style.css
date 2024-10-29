@@ -124,7 +124,7 @@ h1 {
     }
 }
 #videoContainer video {
-    width: 100%;               /* Faz o vídeo ocupar 100% da largura do contêiner */
+    width: 50%;               /* Faz o vídeo ocupar 100% da largura do contêiner */
     height: auto;              /* Mantém a proporção do vídeo */
 }
 
